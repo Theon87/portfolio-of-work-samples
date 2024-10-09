@@ -1,33 +1,64 @@
 #root {
+  display: flex;
+  flex-direction: column;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   min-height: 100vh;
-   
+  font-family:Georgia, 'Times New Roman', Times, serif 
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 50px;
 }
 
 .header {
-  margin-bottom: 2rem;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content:flex-end
+  justify-content: space-between;
+  padding: 1rem;
   display: inline-flex;
   margin-bottom: 2rem;
 }
 
+.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin: 10px;
+  width: 100px;
+}
+
 .project {
-  padding: 40px;
-  margin: 20px;
+  padding: 8rem;
+  margin: 1rem;
   border: 1px solid #ccc;
-  border-radius: 10px;
-  margin-top: 2rem;
+  border-radius: 5px;
+  margin-top: 0rem;
 }
 
 .footer {
   margin-top: 2rem;
+  padding: 1rem;
+}
+
+
+@media screen and (min-width: 576px) {
+  .header .tabs{
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .header .tabs{
+    width: 380px;
+  }
 }

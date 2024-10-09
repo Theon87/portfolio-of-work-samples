@@ -4,7 +4,7 @@ const Navigation = () => {
   return (
     <div>
         <nav className='nav'>
-            <ul>
+            <ul className='tabs'>
                 <li>
                     <a href="#about-me">About Me</a>
                 </li>
