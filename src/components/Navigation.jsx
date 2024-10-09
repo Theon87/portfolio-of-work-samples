@@ -1,25 +1,48 @@
 import React from 'react'
 
-const Navigation = () => {
-  return (
-    <div>
-        <nav className='nav'>
-            <ul className='tabs'>
-                <li>
-                    <a href="#AboutMe">About Me</a>
-                </li>
-                <li>
-                    <a href="#Portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
-                <li>
-                    <a href="#Resume">Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+
+function Navigation ({currentPage, handlePageChange}) {
+  return (    
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a
+          href="#AboutMe"
+          onClick={() => handlePageChange('AboutMe')}
+          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+        >
+          About Me
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Project"
+          onClick={() => handlePageChange('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Resume"
+          //  TODO: Add a comment explaining what this logic is doing
+          // This is a ternary operator that checks if the currentPage is equal to 'Contact' and if it is, it adds the 'active' class to the nav-link
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
+    </ul>
   )
 }
 
