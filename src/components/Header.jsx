@@ -1,9 +1,12 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 const Header = () => {
   return (
     <header className="header">
-        <h1>My Portfolio</h1>
+        <h1>Theon Francis</h1>
+        {/* <h2>Theon Francis</h2> */}
+        <Navigation />
     </header>
   )
 }
