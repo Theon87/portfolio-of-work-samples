@@ -1,12 +1,13 @@
-import React from 'react'
 import Navigation from './Navigation'
 
-const Header = () => {
+const Header = ({currentPage, handlePageChange}) => {
+   
+
   return (
     <header className="header">
         <h1>Theon Francis</h1>
         {/* <h2>Theon Francis</h2> */}
-        <Navigation />
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
     </header>
   )
 }

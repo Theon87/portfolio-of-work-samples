@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   /* max-width: 1280px; */
-  width: 100%;
+  /* width: 100%; */
   margin: 0 auto;
   /* padding: 2rem; */
   text-align: center;
@@ -33,7 +33,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.tabs {
+.nav-item {
   display: flex;
   flex-direction: column;
   justify-content:space-between;
@@ -48,7 +48,6 @@ h1 {
 .project {
   padding: 10rem;
   margin: 2px;
-  /* margin: 1rem; */
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-top: 0rem;
@@ -56,11 +55,20 @@ h1 {
 }
 
 .footer {
-  margin-top: 2rem;
+  width:auto
+  margin: 50px;
   padding: 1rem;
   background-color: #596F62;
+  font-size: 20px;
 }
 
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  margin: 115px;
+}
 
 @media screen and (min-width: 576px) {
   .header .tabs{
