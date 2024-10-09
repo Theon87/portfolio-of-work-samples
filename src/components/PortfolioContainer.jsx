@@ -1,34 +1,43 @@
-import React from 'react'
+import { useState } from 'react'
+import Header from './Header';
+import Footer from './Footer';
+import Navigation from './Navigation';
+import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
 
-const Navigation = () => {
-  return (
+
+export default function PortfolioContainer () {
+  const [currentPage, setCurrentPage] = useState('Home');
+
+    const renderPage = () => {
+        if (currentPage === 'About Me') {
+            return <AboutMe />;
+        }
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact />;
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
+        return <AboutMe />;
+    };
+
+    return (
     <div>
-        <nav className='nav'>
-            <ul className='tabs'>
-                <li>
-                    <a href="#AboutMe">About Me</a>
-                </li>
-                <li>
-                    <a href="#Portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
-                <li>
-                    <a href="#Resume">Resume</a>
-                </li>
-            </ul>
-        </nav>
+        <Header />
+        {renderPage()}
+        <Footer />
     </div>
   )
 }
 
-export default Navigation
-
 // GIVEN a single-page application portfolio for a web developer
 
-// WHEN I load the portfolio
-// THEN I am presented with a page containing a header, a section for content, and a footer
+// WHEN I view the navigation titles
+// THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 
 // WHEN I click on a navigation title
 // THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
