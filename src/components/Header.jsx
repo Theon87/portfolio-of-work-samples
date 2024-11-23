@@ -6,7 +6,6 @@ const Header = ({currentPage, handlePageChange}) => {
   return (
     <header className="header">
         <h1>Theon Francis</h1>
-        {/* <h2>Theon Francis</h2> */}
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
     </header>
   )
