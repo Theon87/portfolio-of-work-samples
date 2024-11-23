@@ -5,9 +5,7 @@ const AboutMe = () => {
     <div className='about-me'>
         <h1>AboutMe</h1>
         <p>
-            ipsom Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Delectus non alias praesentium tempora, tenetur nostrum vel impedit tempore, 
-            eligendi cumque aliquam voluptatem autem sapiente natus esse nobis dolorum veritatis atque.
+          I am a motivated <b>Full Stack Web Developer</b> with a strong foundation in education and proven expertise in analytical thinking and team collaboration. Adept at solving complex problems and delivering impactful solutions through effective communication, both written and verbal.
         </p>
     </div>
   )
