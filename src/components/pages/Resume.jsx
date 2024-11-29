@@ -2,14 +2,13 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div className='resume'>
+    <>
       <h1>Resume</h1>
-      <p>
-        ipsom Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Delectus non alias praesentium tempora, tenetur nostrum vel impedit tempore, 
-        eligendi cumque aliquam voluptatem autem sapiente natus esse nobis dolorum veritatis atque.
-      </p>
-    </div>
+      <div className='resume'>
+        <p>Request a copy of my resume by emailing me at <a href='mailto:'>theonfrancis17@gmail.com</a></p> <br/>
+        <p>Or you can contact me using the links in the footer below</p>
+      </div>
+    </>
   )
 }
 
