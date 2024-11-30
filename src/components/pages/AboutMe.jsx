@@ -5,7 +5,7 @@ const AboutMe = () => {
     <>
       <h1>About Me</h1>
       <div className='about-me'>
-          <img src='../src/assets/profile_photo.jpg' alt='photo of Theon Francis' className='profilePhoto'/>
+          <img src='../src/assets/profilephoto.jpg' alt='photo of Theon Francis' className='profilePhoto'/>
           <p>
             I was born and raised in Trinidad and Tobago, studied biology at Lincoln University as an undergrad, returned to Trinidad to work in education, came back to Maryland to work in education for seven years, and finally moved into full-stack web development. I love watching and playing football (soccer) and have coached the sport for seven years. In my spare time, I like to play chess for fun.
           </p>
