@@ -35,7 +35,7 @@ const Portfolio = () => {
                   <p>
                     {project.description}
                   </p>
-                  {/* <img src={project.image} alt={project.title} /> */}
+                  <img src={project.image} alt={project.title}/>
                   <br />
                   <a href={project.deployed} target='_blank' rel='noopener noreferrer'>App</a>
                   <br />
