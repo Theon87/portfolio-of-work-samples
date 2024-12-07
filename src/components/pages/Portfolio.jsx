@@ -31,6 +31,7 @@ const Portfolio = () => {
             <card>
               {projects.map((project) => (
                 <div>
+                  <hr></hr>
                   <h2>{project.title}</h2>
                   <p>
                     {project.description}
