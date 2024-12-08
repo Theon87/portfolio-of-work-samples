@@ -7,10 +7,13 @@ const AboutMe = () => {
       <div className='about-me'>
           <img src='profilephoto.jpg' alt='photo of Theon Francis' className='profilePhoto'/>
           <p>
-            I was born and raised in Trinidad and Tobago. I love to travel, so I thought, why not move to the United States to study biology at Lincoln University? After completing my undergraduate degree, I returned to Trinidad to work in education, and then I came back to Maryland to work in education for seven more years. I love watching and playing football (soccer) and have coached the sport for seven years. In my spare time, I also like to play chess for fun.
+            My passion for STEM and my journey from science education to technology have uniquely equipped me with the creativity, problem-solving skills, and adaptability needed to excel in web design.
           </p>
           <p>
-            Now, I am taking the big step to change my career to a full-stack web developer. As a Columbia Engineering Coding Bootcamp graduate, I have acquired the skills to build robust applications using a wide range of modern technologies. I love this! I really enjoy the challenge of solving complex problems and the immediate satisfaction of fixing a bug. I also love the collaboration needed to meet the needs of the end user. After working on over thirty projects, my eyes are now primed for the web development world.
+            As a high school science teacher and athletics director, I honed my leadership and organizational abilities while fostering innovation in the classroom. My desire to enhance student engagement led me to integrate technology into my teaching, sparking my interest in coding and web design.
+          </p>
+          <p>
+            In the Fall of 2024, I graduated from the rigorous Columbia Engineering Coding Boot Camp. I now have the skills to build robust applications using a wide range of modern technologies. I enjoy the challenge of solving complex problems and the immediate satisfaction of fixing a bug. I thrive in team environments, welcoming the collaboration needed to meet the needs of the end user. After working on over thirty projects, I have the ability to apply my skills to further the web development community.
           </p>
       </div>
     </>
