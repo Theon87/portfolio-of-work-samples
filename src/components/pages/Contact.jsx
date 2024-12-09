@@ -5,6 +5,10 @@ const emailjsServiceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const emailjsTemplateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const emailjsPublicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
+console.log('Service ID:', emailjsServiceId);
+console.log('Template ID:', emailjsTemplateId);
+console.log('Public Key:', emailjsPublicKey);
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
