@@ -13,6 +13,15 @@
       (function(){
           emailjs.init({
             publicKey: "qw9co7aFGGzvAzwRF",
+            blockHeadless: true,
+            blockList: {
+              list: ['*'],
+              watchVariable: 'userEmail',
+            },
+            limitRate: {
+              id: 'app',
+              throttle: 10000,
+            },
           });
       })();
     </script>
