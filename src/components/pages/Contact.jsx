@@ -5,10 +5,6 @@ const emailjsServiceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const emailjsTemplateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const emailjsPublicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-if (!emailjsServiceId === '' || !emailjsTemplateId === '' || !emailjsPublicKey === '') {
-  console.log('EmailJS keys are missing.');
-}
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
