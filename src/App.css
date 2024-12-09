@@ -68,10 +68,10 @@ h1 {
 }
 
 .project {
-  padding: 10rem;
-  margin: 2px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  padding: 2rem;
+  margin: 100px;
+  border: 2px outset #ccc;
+  border-radius: 20px;
   margin-top: 0rem;
   background-color: #EDF2F4;
 }
@@ -112,35 +112,125 @@ h1 {
   flex-direction: column;
   align-items: center;
   padding: 5px;
-  margin: 100px;
+  margin: 50px;
   font-size: 20px;
+}
+
+#name, #email, #message {
+  width: 70vw;
+  padding: 8px 20px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: inset;
+}
+
+#message {
+  height: 200px;
+}
+
+#formbutton {
+  width: 70vw;
+  padding: 8px 20px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: inset;
+  background-color: #1C3144;
+  color: white;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+  font-size: 200%;
 }
 
 .resume {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 5px;
+  align-items: left;
+  text-align: left;
+  padding: 25px;
   margin: 10px;
   font-size: 20px;
-}
-
-@media screen and (min-width: 576px) {
-  .header .tabs{
-    flex-direction: row;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  .tabs{
-    width: 380px;
-    align-items: right;
-  }
 }
 
 @media screen and (max-width: 576px) {
   .nav {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #name, #email, #message {
+    width: 80vw;
+    padding: 8px 20px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #formbutton {
+    width: 40vw;
+    padding: 8px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: inset;
+    background-color: #1C3144;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .header .tabs{
+    flex-direction: row;
+  }
+
+  .tabs{
+    width: 380px;
+    align-items: right;
+  }
+
+  #name, #email, #message {
+    width: 60%;
+    padding: 8px 20px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #formbutton {
+    width: 30%;
+    padding: 8px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: inset;
+    background-color: #1C3144;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  #name, #email, #message {
+    width: 60%;
+    padding: 8px 20px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #formbutton {
+    width: 40%;
+    padding: 8px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: inset;
+    background-color: #1C3144;
+    color: white;
   }
 }
