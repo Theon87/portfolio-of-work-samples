@@ -5,7 +5,7 @@ const Portfolio = () => {
     {
       projectNumber: 1,
       title: "Tic-Tac-Toe-Game",
-      image: "project4tictactoe.png",
+      image: "project1tictactoe.png",
       deployed: "https://tic-tac-toe-game-aoup.onrender.com/",
       repo: "https://github.com/Theon87/tic-tac-toe-game",
       description:
