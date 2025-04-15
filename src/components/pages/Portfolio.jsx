@@ -13,17 +13,26 @@ const Portfolio = () => {
     },
     {
       projectNumber: 2,
+      title: "Calculator",
+      image: "project2calculator.png",
+      deployed: "https://calculator-nyw3.onrender.com/",
+      repo: "https://github.com/Theon87/calculator",
+      description:
+        "A simple calculator app built with vanilla javaScript, CSS, and HTML. Use to perform basic arithmetic.",
+    },
+    {
+      projectNumber: 3,
       title: "Task Mates",
-      image: "project1taskmates.png",
+      image: "project3taskmates.png",
       deployed: "https://task-mates-app.onrender.com",
       repo: "https://github.com/Theon87/task-mates-app",
       description:
         "A shared platform designed to help users efficiently manage and delete tasks within a group environment.",
     },
     {
-      projectNumber: 3,
+      projectNumber: 4,
       title: "Build A Vehicle",
-      image: "project2buildavehicle.png",
+      image: "project4buildavehicle.png",
       deployed:
         "https://drive.google.com/file/d/1TNm_pfwrH6421y7I89eqi_WBXBGoBIhZ/view?usp=sharing",
       repo: "https://github.com/Theon87/build-a-vehicle",
@@ -31,9 +40,9 @@ const Portfolio = () => {
         "This is a command-line application that allows users to build a vehicle by selecting from a list of options.",
     },
     {
-      projectNumber: 4,
+      projectNumber: 5,
       title: "Social Network API",
-      image: "project3socialnetworkapi.png",
+      image: "project5socialnetworkapi.png",
       deployed:
         "https://drive.google.com/file/d/1mIlWeP9VDpVpoPEzqK-5C0ja_wOIw1wu/view?usp=sharing",
       repo: "https://github.com/Theon87/social-network-api",
